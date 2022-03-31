@@ -1,0 +1,15 @@
+.logo {
+  height: 200rpx;
+}
+
+.header {
+  margin-top: 88rpx;
+  font-size:  60rpx;
+  font-family: 'Circular Black';
+
+}
+
+.sub-header {
+  text-align: center;
+  margin-top: 40rpx;
+}

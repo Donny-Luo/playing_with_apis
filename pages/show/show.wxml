@@ -1,0 +1,25 @@
+<view class="container">
+  
+  <!-- 1. Let's change this and add the correct location -->
+  <view class="header">{{result.provinceName}}</view>
+  
+  <!-- 2. Let's add the data for each of these figures -->
+  <view class="input-container">
+    <view class="input-data">{{result.confirmedCount}}</view>
+    <view class="input-label">所有确诊人数</view>
+  </view>
+  
+  <view class="input-container">
+    <view class="input-data">{{result.currentConfirmedCount}}</view>
+    <view class="input-label">现存确诊人数</view>
+  </view>
+  
+  <view class="input-container">
+    <view class="input-data">{{result.updateTime}}</view>
+    <view class="input-label">更新时间</view>
+  </view>
+  
+  <!-- Button -->
+  <view bindtap="requestData" class="btn" style="background: #696666;">Request Data</view>
+ 
+</view>

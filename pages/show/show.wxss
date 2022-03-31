@@ -1,0 +1,44 @@
+.container {
+  padding: 60rpx 40rpx;
+  font-size: 40rpx;
+}
+
+.header {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 32rpx;
+}
+
+.input-container {
+  width: 100%;
+  box-sizing: border-box;
+  margin: 32rpx 0;
+}
+
+.input-label {
+  font-size: 40rpx;
+}
+
+.input-data {
+  font-size: 56rpx;
+  font-weight: bold;
+}
+
+/* -- Buttons -- */
+
+.btn-blue {
+  width: 80vw;
+  height: 100rpx;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  color: white;
+  border-radius: 4px;
+  background: #62DDF5;
+  position: absolute;
+  bottom: 120rpx;
+  font-size: 40rpx;
+}
+
+
+

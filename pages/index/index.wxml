@@ -1,0 +1,7 @@
+<view class="container">
+  <image class="logo" mode="aspectFit" src="../../images/IMG_0978.png"></image>
+  <view class="header">{{title}}</view>
+  <view class="sub-header">{{subtitle}}</view>
+  <view class="btn" style="background: #696666">Let's Go</view>
+  <view class="btn" bindtap="navigateToShow"></view>
+</view>
