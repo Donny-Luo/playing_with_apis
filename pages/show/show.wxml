@@ -23,3 +23,4 @@
   <view bindtap="requestData" class="btn" style="background: #696666;">Request Data</view>
  
 </view>
+
